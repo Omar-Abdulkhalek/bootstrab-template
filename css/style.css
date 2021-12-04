@@ -1,0 +1,553 @@
+html {
+    scroll-behavior: smooth;
+  }
+/* starting of nav */
+nav .container .navbar-brand{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+nav .container ul li a {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 10px;
+    transition: color 1s;
+}
+nav .container ul li a:hover{
+    color: #e65f78 !important;
+}
+
+nav .container ul li .one{
+    color:#e65f78 !important;
+}
+/* ending of nav */
+
+/* starting of header */
+header{
+    height: 100vh;
+    background-image: url("../images/header-bg.jpg");
+    background-size: cover;
+    background-position:center center ;
+}
+
+header .overlayer{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7);
+}
+header .overlayer .header-content h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+header .overlayer .header-content p {
+    font-family: 'Montserrat', sans-serif;
+    color:#B5CBCB;
+   
+}
+header .overlayer .header-content h1 {
+    font-family: 'Montserrat', sans-serif;
+    ;
+    
+}
+
+header .overlayer .header-content h1::after{
+    content: "I'M ";
+    animation-name: omar;
+    animation-duration: 8s;
+    animation-iteration-count:infinite ;
+    /* animation-direction:alternate ; */
+}
+@keyframes omar{
+    0%{
+        content:"I'M |";
+    }
+    2%{
+        content:" O|";
+    }
+    4%{
+        content:" Om|";
+    }
+    6%{
+        content:" Oma|";
+    }
+    8%{
+        content:" Omar|";
+    }
+    8%{
+        content:" Omar M|";
+    }
+    10%{
+        content:" Omar Mo|";
+    }
+    12%{
+        content:" Omar Moh|";
+    }
+    14%{
+        content:" Omar Moha|";
+    }
+    16%{
+        content:" Omar Moham|";
+    }
+    18%{
+        content:" Omar Mohame|";
+    }
+    20%{
+        content:" Omar Mohamed|";
+    }
+    22%{
+        content:" Omar Mohame|";
+    }
+    24%{
+        content:" Omar Moham|";
+    }
+    26%{
+        content:" Omar Moha|";
+    }
+    28%{
+        content:" Omar Moh|";
+    }
+
+    30%{
+        content:" Omar Mo|";
+    }
+    32%{
+        content:" Omar M|";
+    }
+    34%{
+        content:" Omar|";
+    }
+    36%{
+        content:" Oma|";
+    }
+    38%{
+        content:" Om|";
+    }
+    40%{
+        content:" O|";
+    }
+    42%{
+        content:" |";
+    }
+    44%{
+        content:"F|";
+    }
+    46%{
+        content:"Fr|";
+    }
+    48%{
+        content:"Fro|";
+    }
+    50%{
+        content:"Fron|";
+    }
+    52%{
+        content:"Front|";
+    }
+    54%{
+        content:"Fronte|";
+    }
+    56%{
+        content:"Fronten|";
+    }
+    58%{
+        content:"Frontend|";
+    }
+    60%{
+        content:"Frontend D|";
+    }
+    62%{
+        content:"Frontend De|";
+    }
+    64%{
+        content:"Frontend Dev|";
+    }
+    66%{
+        content:"Frontend Deve|";
+    }
+    68%{
+        content:"Frontend Devel|";
+    }
+    70%{
+        content:"Frontend Develo|";
+    }
+    72%{
+        content:"Frontend Develop|";
+    }
+    74%{
+        content:"Frontend Develope|";
+    }
+    76%{
+        content:"Frontend Developer|";
+    }
+    78%{
+        content:"Frontend Develope|";
+    }
+    80%{
+        content:"Frontend Develop|";
+    }
+    82%{
+        content:"Frontend Develo|";
+    }
+    84%{
+        content:"Frontend Devel|";
+    }
+    86%{
+        content:"Frontend Deve|";
+    }
+    88%{
+        content:"Frontend Dev|";
+    }
+   90%{
+        content:"Frontend De|";
+    }
+    92%{
+        content:"Frontend D|";
+    }
+    90%{
+        content:"Frontend|";
+    }
+    91%{
+        content:"Fronten|";
+    }
+    92%{
+        content:"Fronte|";
+    }
+    93%{
+        content:"Front|";
+    }
+    94%{
+        content:"Fron|";
+    }
+    95%{
+        content:"Fro|";
+    }
+    96%{
+        content:"Fr|";
+    }
+    98%{
+        content:"F|";
+    }
+    
+    100%{
+        content:"|" ;
+    }
+}
+
+header .overlayer .header-content button{
+    border:2px solid #fff;
+    color:#fff;
+    background-color: transparent;
+    padding: 15px 25px;
+    transition: background-color 1s ,color 1s;
+}
+
+header .overlayer .header-content button:hover{
+    background-color: #fff;
+    color:#000;
+}
+
+/* ending of header */
+/* starting of about me */
+.about-me{
+    padding: 80px 0;
+}
+.about-me .img-container{
+    background-color: red;
+    border: 5px solid #fff;
+}
+
+.about-me .text-container h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+}
+.about-me .text-container h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    
+}
+.about-me .text-container h4 span{
+    color:#E65F78;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+   
+   
+}
+.about-me .text-container p{
+    color:#6C757D;
+    font-family:'Nunito Sans', sans-serif; 
+    
+}
+.about-me .text-container .social-panel {
+    display: flex;
+}
+.about-me .text-container .social-panel .item{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000;
+    border-radius:50% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    transition:  border 1s;
+}
+.about-me .text-container .social-panel .item a{
+    text-decoration: none;
+    color: #000;
+    transition: color 1s;
+}
+.about-me .text-container .social-panel .item:hover {
+    
+    border: 1px solid #E65F78;
+}
+.about-me .text-container .social-panel .item:hover a{
+    color:#E65F78;
+}
+/* ending of about me */
+
+/* starting of our services  */
+
+.Our-Services{
+    padding:80px 0 ;
+    background-color: #F8F9FA;
+}
+.content{
+    width: 50%;
+    
+    margin: auto;
+}
+
+.content h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.content p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16x;
+    font-weight: 400;
+    color:#6c757d;
+
+}
+
+.Our-Services .item{
+    border: 1px solid #000;
+}
+.Our-Services .item:hover .brdr{
+    width: 70px;
+}
+.Our-Services .item i {
+    color:#E65F78;
+}
+.Our-Services .item .brdr {
+    height: 2px;
+    width: 40px;
+    background-color:#E65F78 ;
+    margin:auto;
+    transition: width 1s;
+}
+
+.Our-Services .item h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Our-Services .item p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16x;
+    font-weight: 400;
+    color:#6c757d;
+
+}
+/* ending of our services */
+
+/* starting of hire me */
+.hire-me{
+    padding-bottom: 80px;
+}
+.hire-me .content h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+}
+.hire-me .content a{
+    text-decoration: none;
+    color :#fff;
+    background-color: #E65F78 ;
+    padding:15px 25px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+/* ending of hire me */
+/* starting of our client  */
+.our-client{
+    padding:80px 0 ;
+    background-color: #F8F9FA;
+}
+.our-client .carousel-item .testominal .icon i{
+    color:#E65F78;
+}
+
+.our-client .carousel-item .testominal img{
+    margin: 30px 0;
+    border: 3px solid #fff;
+    border-radius: 50%;
+}
+.our-client .carousel-item .testominal p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16x;
+    font-weight: 400;
+    color:#6c757d;
+}
+.our-client .carousel ol li{
+    text-indent: 0;
+    width: 40px;
+    height: 3px;
+    background-color: #E65F78 ;
+    
+}
+/* ending of our client  */
+
+/* starting of our work */
+.our-works ul li a {
+    color:#000 !important;
+    padding: 10px 20px;
+    transition: color 1s , border 1s;
+}
+
+.our-works ul li:hover a {
+    
+    background-color:#E65F78 ;
+    color: #fff !important;
+    border-top-left-radius:30px ;
+    border-top-right-radius:30px ;
+    border-bottom-left-radius:30px ;
+    border-bottom-right-radius:30px ;
+
+
+}
+.our-works .item{
+    position: relative;
+    overflow: hidden;
+}
+.our-works .item:hover .child-over{
+    top:0;
+    opacity: 1;
+}
+.our-works .item .child-over{
+    background-color: rgba(0,0,0,.7) ;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: top .5s , opacity 1s;
+}
+
+.our-works .item .child-over p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 10x;
+    font-weight: 400;
+    color:#9cb3c7;
+}
+.our-works .item .child-over h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+
+/* ending of our work */
+
+/* starting of our blog */
+.our-blog{
+    background-color: #F8F9FA;
+}
+.our-blog .blog{
+    
+    border: 5px solid #fff;
+    padding: 0 0 10px 0;
+    background-color: #fff;
+}
+.our-blog .blog .one{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #121416;
+    margin: 0 5px;
+}
+.our-blog .blog p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16x;
+    font-weight: 400;
+    color:#6c757d;
+    margin: 10px 5px;
+}
+
+.our-blog .blog .two{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16x;
+    font-weight: 700;
+    color:#6c757d;
+    margin: 0px 5px;
+}
+/* ending of our blog */
+
+/* starting of contact us */
+.contact-us .contact i{
+    color:#E65F78 ;
+}
+.contact-us .contact h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #212529;
+}
+.contact-us .contact p
+{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16x;
+    font-weight: 400;
+    color:#6c757d;
+}
+
+.contact-us form button{
+    border: none;
+    background-color: #e65f78;
+    padding: 10px 20px;
+    color: #fff;
+   
+}
+/* ending of contact us */
+
+/* starting of footer */
+footer{
+    background-color: #000000;
+}
+footer .social-media .icon a{
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #242424;
+    margin-left: 10px;
+    text-decoration: none;
+
+}
+/* ending of footer */

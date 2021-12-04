@@ -1,0 +1,191 @@
+/* extra small screens */
+@media all and (max-width:576px){
+    .header-content{
+        
+        width: 100%;
+    }
+    header .overlayer .header-content h4 {
+        font-size: 16px;
+    }
+    
+    header .overlayer .header-content h1 {
+        font-size: 17px;
+    }
+
+    header .overlayer .header-content p {
+        font-size:12px;
+        margin: 20px 0;
+        width: 100%;
+        text-align: left;
+    }
+
+    header .overlayer .header-content button{
+        
+        padding: 10px 18px;
+        font-size: 10px;
+    }
+
+
+    .about-me .text-container{
+        
+        margin-top: 40px;
+        padding: 0 5px;
+    }
+
+
+    .content{
+        width: 100%;
+        
+        margin: auto;
+    }
+    
+    .content h2{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    .content p{
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+        color:#6c757d;
+    
+    }
+
+    .Our-Services .item{
+        margin-top: 30px !important;
+    }
+
+    .hire-me .content h2{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .hire-me .content a{
+        text-decoration: none;
+        color :#fff;
+        background-color: #E65F78 ;
+        padding:15px 25px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 10px;
+        font-weight: 700;
+    }
+
+    .contact-us .two{
+        margin: 20px 0;
+    }
+}
+
+
+/* small screens */
+@media all and (min-width:577px) and (max-width:768px){
+    .header-content{
+        
+        width: 100%;
+    }
+    header .overlayer .header-content h4 {
+        font-size: 23px;
+    }
+    
+    header .overlayer .header-content h1 {
+        font-size: 19px;
+    }
+
+    header .overlayer .header-content p {
+        font-size:12px;
+        margin: 20px 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    header .overlayer .header-content button{
+        
+        padding: 10px 18px;
+        font-size: 13px;
+    }
+
+    .about-me .text-container{
+        
+        margin-top: 40px;
+        padding: 0 5px;
+    }
+
+    .content{
+        width: 100%;
+        
+        margin: auto;
+    }
+    
+    .content h2{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    .content p{
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        color:#6c757d;
+    
+    }
+    .hire-me .content h2{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 19px;
+        font-weight: 500;
+    }
+    .hire-me .content a{
+        text-decoration: none;
+        color :#fff;
+        background-color: #E65F78 ;
+        padding:15px 25px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 13px;
+        font-weight: 700;
+    }
+
+    .Our-Services .item{
+        margin-top: 30px !important;
+    }
+
+    .contact-us .two{
+        margin: 25px 0 0 0;
+    }
+}
+
+
+/* medium screens */
+@media all and (min-width:769px) and (max-width:992px){
+    .header-content{
+        
+        width: 100%;
+    }
+    header .overlayer .header-content h4 {
+        font-size: 28px;
+    }
+    
+    header .overlayer .header-content h1 {
+        font-size: 25px;
+    }
+
+    header .overlayer .header-content p {
+        font-size:15px;
+        margin: 20px 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    header .overlayer .header-content button{
+        
+        padding: 10px 18px;
+        font-size: 18px;
+    }
+}
+
+
+/* large screens */
+/* @media all and (min-width:993px) and (max-width:1200px) */
+
+
+/* extra large screens */
